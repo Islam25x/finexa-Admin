@@ -1,4 +1,4 @@
-import { Bot, ChevronDown, LayoutDashboard, LogOut, Menu, Users, X } from "lucide-react";
+import { Bot, LayoutDashboard, LogOut, Menu, Users, X } from "lucide-react";
 import { useMemo, useState, type ReactNode } from "react";
 import { NavLink } from "react-router-dom";
 import logoSrc from "../../assets/logo.png";

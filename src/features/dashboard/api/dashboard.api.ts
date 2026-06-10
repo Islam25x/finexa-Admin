@@ -32,7 +32,6 @@ function formatMoney(value: number): string {
 function mapMetrics(data: Record<string, unknown>): MetricSummary[] {
   const users = isRecord(data.users) ? data.users : {};
   const financial = isRecord(data.financial) ? data.financial : {};
-  const bills = isRecord(data.bills) ? data.bills : {};
   const ai = isRecord(data.aiUsage) ? data.aiUsage : {};
 
   return [
